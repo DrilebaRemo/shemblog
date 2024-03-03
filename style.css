@@ -7,3 +7,137 @@
 h5,p{
     color: rgb(56, 91, 122);
 }
+.gall{
+margin: 0;
+font-family: 'Arial', sans-serif;
+background-color: black;
+}
+
+.gallery {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.gallery-item {
+flex: 1 0 300px; /* Adjust the width as needed */
+margin: 10px;
+overflow: hidden;
+}
+
+.gallery-item img {
+width: 100%;
+height: auto;
+transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover img {
+transform: scale(1.1);
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (no*/
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #1b1bda;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #1b1be2;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #120101;
+    padding: 40px;
+  }
+  .conta{
+    background-color: #0a0000;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: azure;
+    padding: 20px;
+  }
+  .container {
+      /* position: absolute; */
+      width: 70%;
+      left: 15%;
+      top: 10%;
+      font-size: larger;
+      padding-top: 60px;
+  }
+  .pic {
+      width: 350px;
+      /* float: left; */
+      border-radius: 50px;
+      /* margin-right: 60px;
+      margin-left: 80px;
+      margin-top: 80px;*/
+  
+  }
+  .blo {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-color: #0c0101;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.meta {
+    font-style: italic;
+    color: #888;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    article {
+        padding: 10px;
+    }
+}
